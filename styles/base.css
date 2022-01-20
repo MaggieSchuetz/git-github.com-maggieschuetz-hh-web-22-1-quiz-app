@@ -4,6 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: hotpink;
+ul[role="list"] {
+  list-style: none;
 }
