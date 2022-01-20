@@ -1,4 +1,4 @@
-section {
+.card {
   padding: 1rem;
   margin-bottom: 1rem;
   background: var(--color-light);
@@ -15,20 +15,19 @@ section {
 }
 
 .bookmark:focus {
-  background-color: var(
-    --color-marked
-  ); /*The button switches shape after clicking it and I don't want that, but I guess we'll still do this one anyway*/
+  background-color: var(--color-marked);
+  border-radius: 6px; /*The button switches shape after clicking it and I don't want that, but I guess we'll still do this one anyway*/
 }
 
-ul[role="list"] {
+.card__list {
   display: flex;
   justify-content: space-between;
   list-style: none;
   padding-right: 3%; /*added padding because it was shifted, is there a better way? */
 }
 
-li {
+.card__list-items {
   background-color: var(--color-marked);
-  padding: 2px 5px;
+  padding: 2px 8px;
   border-radius: 4px;
 }
