@@ -3,3 +3,9 @@
 *::after {
   box-sizing: border-box;
 }
+
+
+ul[role="list"] {
+  list-style: none;
+}
+
