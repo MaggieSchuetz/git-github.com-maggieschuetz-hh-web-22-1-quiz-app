@@ -1,0 +1,27 @@
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.h-500 {
+  height: 500px;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.h-75 {
+  height: 75px;
+}
+
+.bg-blue {
+  background-color: skyblue;
+}
+
+.bg-coral {
+  background-color: coral;
+}
+
+.bg-hotpink {
+  background-color: hotpink;
+}
