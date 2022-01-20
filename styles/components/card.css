@@ -1,23 +1,34 @@
-.card-grid {
-}
-
-header {
+section {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: var(--color-light);
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3); /* I don't know how to define this separately*/
+  border-radius: 25px;
+  min-width: 200px;
+  height: fit-content;
 }
 
 .bookmark {
+  position: absolute;
+  top: 10px;
+  right: 80px;
 }
 
-.content {
+.bookmark:focus {
+  background-color: var(
+    --color-marked
+  ); /*The button switches shape after clicking it and I don't want that, but I guess we'll still do this one anyway*/
 }
 
-.button {
+ul[role="list"] {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-right: 3%; /*added padding because it was shifted, is there a better way? */
 }
 
-.button--collapsible {
-}
-
-.hidden {
-}
-
-.categories {
+li {
+  background-color: var(--color-marked);
+  padding: 2px 5px;
+  border-radius: 4px;
 }
