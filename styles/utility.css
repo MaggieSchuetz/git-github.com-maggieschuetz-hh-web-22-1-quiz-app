@@ -1,3 +1,13 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; /*maybe leave this out to fix the list*/
+}
+
+h1 {
+}
+
+h2 {
+}
 .mb-20 {
   margin-bottom: 20px !important;
 }
