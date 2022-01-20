@@ -1,7 +1,6 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  background-color: var(--color-background);
+  text-align: center; /*maybe leave this out to fix the list*/
 }
 
 h1 {
