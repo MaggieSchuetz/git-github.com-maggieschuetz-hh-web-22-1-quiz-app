@@ -6,6 +6,7 @@
   border-radius: 25px;
   min-width: 200px;
   height: fit-content;
+  position: relative;
 }
 
 .bookmark {
