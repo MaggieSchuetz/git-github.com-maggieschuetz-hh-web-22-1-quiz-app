@@ -1,6 +1,7 @@
 .app-grid {
   display: grid;
   grid-template-rows: 48px 1fr;
+  padding-top: 5px;
 }
 
 .app-grid__header {

@@ -1,6 +1,6 @@
 .card {
   padding: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
   background: var(--color-light);
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3); /* I don't know how to define this separately*/
   border-radius: 25px;
@@ -18,6 +18,14 @@
 .bookmark:focus {
   background-color: var(--color-marked);
   border-radius: 6px; /*The button switches shape after clicking it and I don't want that, but I guess we'll still do this one anyway*/
+}
+
+.bookmark__marked {
+  position: absolute;
+  top: -10px;
+  right: 40px;
+  background-color: var(--color-marked);
+  border-radius: 6px;
 }
 
 .card__list {
