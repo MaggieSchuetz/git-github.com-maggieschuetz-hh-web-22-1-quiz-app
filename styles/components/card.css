@@ -38,5 +38,6 @@
 .card__list-items {
   background-color: var(--color-marked);
   padding: 2px 8px;
+  margin: 5px;
   border-radius: 4px;
 }

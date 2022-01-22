@@ -13,7 +13,3 @@
 .app-grid__scrollarea {
   overflow-y: auto;
 }
-
-.app-grid__footer {
-  background-color: var(--color-marked);
-}
