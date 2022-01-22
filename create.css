@@ -32,7 +32,7 @@ input {
   font-size: 16px;
 }
 
-button {
+.submit__button {
   padding: 10px 20px;
   margin: 10px;
 }

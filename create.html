@@ -7,40 +7,34 @@
     <title>Create</title>
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
-  
-  <form
-  class="create"
-  aria-labelledby="create-question-heading"
-  autocomplete="off"
->
-  <label class="create__label" for="input-question"
-    >Let us know your question:</label
-  >
-  <textarea
-    class="w-100 create__textfield"
-    id="input-question"
-    required
-    placeholder="What is your question?"
-  >
-  </textarea>
-  <label class="create__label" for="input-answer"
-    >Let us know your answer:</label
-  >
-  <textarea
-    class="w-100 create__textfield"
-    id="input-answer"
-    required
-    placeholder="What is the answer?"
-  >
-  </textarea>
-  <label class="create__label" for="input-tags"
-    >Please name tags:
-  </label>
-  <input
-    class="w-100 create__textfield"
-    id="input-tags"
-    required
-    placeholder="Tag 1, Tag 2, Tag 3, Tag 4"
-  />
-  <input id="submit" class="create__button" type="submit"></input>
-</form>
+  <body>
+    <div class="app-grid h-500">
+      <header class="app-grid__header">Create</header>
+      <main class="app-grid__scrollarea">
+      <form action="" aria-labelledby="create-heading" class="form__grid">
+        <label for="question-field"
+          >Add your question:<textarea name="" id="question-field" cols="45" rows="10" required></textarea>
+        </label>
+        <label for="answer-field"
+          >Add your answer:<textarea name="" id="answer-field" cols="45" rows="10" required></textarea>
+        </label>
+        <label for="tags-field">Add your tags: <input type="text" id="tags-field" required /></label>
+        <button type="submit" class="submit__button">Submit</button>
+      </form>
+    </main>
+    <nav class="nav__grid">
+      <a href="./index.html" class="nav__icons">
+        <img src="./images/home.svg" alt="home" width="20" height="20" class="nav__img" />
+      </a>
+      <a href="./bookmarks.html" class="nav__icons">
+        <img src="./images/bookmark.svg" alt="bookmarks" width="20" height="20" class="nav__img"
+      /></a>
+      <a href="./create.html" class="nav__icons">
+        <img src="./images/create.svg" alt="create" width="20" height="20" class="nav--active "
+      /></a>
+      <a href="./profile.html" class="nav__icons">
+        <img src="./images/profile.svg" alt="profile" width="20" height="20" class="nav__img"
+      /></a>
+    </nav>     
+  </body>
+</html>
