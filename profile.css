@@ -50,3 +50,7 @@ h3 {
   text-align: left;
   padding-left: 20px;
 }
+
+.no-scroll {
+  height: 100vh;
+}

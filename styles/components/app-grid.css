@@ -8,8 +8,13 @@
   font-family: Jazz LET, fantasy;
   font-size: 200%;
   background-color: var(--color-marked);
+  padding-top: 10px;
 }
 
 .app-grid__scrollarea {
   overflow-y: auto;
 }
+
+/*.app-grid--no-scroll {
+  grid-template-rows: 10vh;
+}*/
