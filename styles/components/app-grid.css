@@ -1,18 +1,20 @@
 .app-grid {
   display: grid;
-  grid-template-rows: 48px 1fr 48px;
+  grid-template-rows: 48px 1fr;
+  padding-top: 5px;
 }
 
 .app-grid__header {
   font-family: Jazz LET, fantasy;
   font-size: 200%;
   background-color: var(--color-marked);
+  padding-top: 10px;
 }
 
 .app-grid__scrollarea {
   overflow-y: auto;
 }
 
-.app-grid__footer {
-  background-color: var(--color-marked);
-}
+/*.app-grid--no-scroll {
+  grid-template-rows: 10vh;
+}*/

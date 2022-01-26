@@ -1,0 +1,42 @@
+textarea {
+  text-align: left;
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+  height: 100px;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  margin: 10px auto;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+  grid-template-columns: 1;
+  grid-template-rows: 4;
+  height: 20px;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+}
+
+.submit__button {
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.no-scroll {
+  height: 100vh;
+}

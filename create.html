@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body>
-    <h1 id="create-heading">Create</h1>
-    <main>
-      <form action="" aria-labelledby="create-heading">
+    <header class="app-grid__header">Create</header>
+    <main class="no-scroll">
+      <form action="" aria-labelledby="create-heading" class="form__grid">
         <label for="question-field"
           >Add your question:<textarea name="" id="question-field" cols="45" rows="10" required></textarea>
         </label>
@@ -18,24 +18,22 @@
           >Add your answer:<textarea name="" id="answer-field" cols="45" rows="10" required></textarea>
         </label>
         <label for="tags-field">Add your tags: <input type="text" id="tags-field" required /></label>
-        <button type="submit">Submit</button>
+        <button type="submit" class="submit__button">Submit</button>
       </form>
     </main>
-    <nav>
-      <ul role="list">
-        <li>
-          <a href="./index.html"><img src="./images/home.svg" alt="" width="40" height="40" /></a>
-        </li>
-        <li>
-          <a href="./bookmarks.html"><img src="./images/bookmark.svg" alt="" width="40" height="40" /></a>
-        </li>
-        <li>
-          <a href="./create.html"><img src="./images/create.svg" alt="" width="40" height="40" /></a>
-        </li>
-        <li>
-          <a href="./profile.html"><img src="./images/profile.svg" alt="" width="40" height="40" /></a>
-        </li>
-      </ul>
+    <nav class="nav__grid">
+      <a href="./index.html" class="nav__icons">
+        <img src="./images/home.svg" alt="home" width="20" height="20" class="nav__img" />
+      </a>
+      <a href="./bookmarks.html" class="nav__icons">
+        <img src="./images/bookmark.svg" alt="bookmarks" width="20" height="20" class="nav__img"
+      /></a>
+      <a href="./create.html" class="nav__icons">
+        <img src="./images/create.svg" alt="create" width="20" height="20" class="nav--active"
+      /></a>
+      <a href="./profile.html" class="nav__icons">
+        <img src="./images/profile.svg" alt="profile" width="20" height="20" class="nav__img"
+      /></a>
     </nav>
   </body>
 </html>
