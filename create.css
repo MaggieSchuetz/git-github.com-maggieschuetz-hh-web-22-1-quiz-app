@@ -40,3 +40,8 @@ input {
 .no-scroll {
   height: 100vh;
 }
+
+.create-grid {
+  display: grid;
+  grid-template-columns: 2;
+}

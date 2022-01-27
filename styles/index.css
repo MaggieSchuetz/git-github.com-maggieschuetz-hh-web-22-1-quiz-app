@@ -1,8 +1,8 @@
-@import "./colors.css";
-@import "./base.css";
-@import "./utility.css";
-@import "./components/app-grid.css";
-@import "./components/card.css";
-@import "./components/nav.css";
-@import "../create.css";
-@import "../profile.css";
+@import './colors.css';
+@import './base.css';
+@import './utility.css';
+@import './components/app-grid.css';
+@import './components/card.css';
+@import './components/nav.css';
+@import '../create.css';
+@import '../profile.css';
