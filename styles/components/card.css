@@ -44,3 +44,7 @@
   margin: 5px;
   border-radius: 4px;
 }
+
+.card__answer--hide {
+  display: none;
+}
