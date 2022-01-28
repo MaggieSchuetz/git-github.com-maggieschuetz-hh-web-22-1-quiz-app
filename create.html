@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Create</title>
     <link rel="stylesheet" href="./styles/index.css" />
-    <script defer src="./index.js"></script>
+
+    <script defer src="./js/index.js" type="module"></script>
   </head>
   <body>
     <header class="app-grid__header">Create</header>
     <main class="no-scroll">
-      <form class="form" action="" aria-labelledby="create-heading">
+      <form
+        class="form"
+        action=""
+        aria-labelledby="create-heading"
+        data-js="form"
+      >
         <label class="form__label" for="question-field"
           >Add your question:
           <output class="form__output_question" data-js="output-question"
