@@ -16,7 +16,7 @@ allCardElements.forEach((cardElement) => {
   Card(cardElement);
 });
 
-const formElements = document.querySelectorAll('[data-js="card"]');
+const formElements = document.querySelectorAll('[data-js="form"]');
 
 formElements.forEach((formElement) => {
   Forms(formElement);

@@ -1,4 +1,4 @@
-const bookmark = document.querySelector('[data-js="js-bookmark"]');
+/*const bookmark = document.querySelector('[data-js="js-bookmark"]');
 
 bookmark.addEventListener('click', () => {
   bookmark.classList.toggle('bg-teal');
@@ -17,7 +17,7 @@ answerButton.addEventListener('click', () => {
   answerButtonHide.classList.toggle('card__answer--hide');
   answerButtonShow.classList.toggle('card__answer--hide');
   answerText.classList.toggle('card__answer--hide');
-});
+});*/
 
 const textareaQuestion = document.querySelector(
   '[data-js="textarea-question"]'
