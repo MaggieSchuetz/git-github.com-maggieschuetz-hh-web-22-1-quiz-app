@@ -9,6 +9,7 @@ create();*/
 import Card from './Card.js';
 import Forms from './Forms.js';
 import Logout from './Logout.js';
+import Compile from './Compile.js';
 
 // NodeList [HTMLElement, HTMLElement]
 const allCardElements = document.querySelectorAll('[data-js="card"]');
@@ -27,4 +28,10 @@ const userLogout = document.querySelectorAll('[data-js="profile"]');
 
 userLogout.forEach((profileLogout) => {
   Logout(profileLogout);
+});
+
+const switchTabs = document.querySelectorAll('[data-js="selectAll"]');
+
+switchTabs.forEach((switchClick) => {
+  Compile(switchClick);
 });

@@ -48,3 +48,7 @@
 .card__answer--hide {
   display: none;
 }
+
+.hidden {
+  display: none;
+}
