@@ -23,7 +23,7 @@ formElements.forEach((formElement) => {
   Forms(formElement);
 });
 
-const userLogout = document.querySelectorAll('[data-js="user__logout"]');
+const userLogout = document.querySelectorAll('[data-js="profile"]');
 
 userLogout.forEach((profileLogout) => {
   Logout(profileLogout);

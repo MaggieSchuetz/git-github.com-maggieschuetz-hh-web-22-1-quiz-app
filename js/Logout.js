@@ -1,5 +1,6 @@
 export default function Logout(profileLogout) {
   const logoutButton = profileLogout.querySelector('[data-js="logout-button"]');
+  const sectionHide = profileLogout.querySelector('[data-js="show-hide"]');
 
   logoutButton.addEventListener('click', () => {
     if (logoutButton.textContent.trim() === 'Log Out') {
@@ -7,6 +8,6 @@ export default function Logout(profileLogout) {
     } else {
       logoutButton.textContent = 'Log Out';
     }
-    /*answerText.classList.toggle('profile--hide');*/
+    sectionHide.classList.toggle('hidden');
   });
 }
