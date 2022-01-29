@@ -8,6 +8,7 @@ create();*/
 
 import Card from './Card.js';
 import Forms from './Forms.js';
+import Logout from './Logout.js';
 
 // NodeList [HTMLElement, HTMLElement]
 const allCardElements = document.querySelectorAll('[data-js="card"]');
@@ -20,4 +21,10 @@ const formElements = document.querySelectorAll('[data-js="form"]');
 
 formElements.forEach((formElement) => {
   Forms(formElement);
+});
+
+const userLogout = document.querySelectorAll('[data-js="user__logout"]');
+
+userLogout.forEach((profileLogout) => {
+  Logout(profileLogout);
 });
