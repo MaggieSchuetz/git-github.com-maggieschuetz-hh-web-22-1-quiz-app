@@ -4,11 +4,19 @@
   justify-content: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: 20px;
   position: sticky;
   bottom: 0px;
   background-color: var(--color-marked);
+  list-style: none;
 }
+
+/*.nav__grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+  border-right: 2px;
+}*/
 
 .nav__icons {
   justify-self: center;
@@ -29,13 +37,4 @@
 
 .active {
   filter: invert(1);
-}
-
-.nav__grid {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 0;
-  list-style: none;
-  border-right: 2px;
 }

@@ -7,11 +7,11 @@
   min-width: 200px;
   height: fit-content;
   position: relative;
+  text-align: center;
 }
 
 .bookmark {
   position: absolute;
-
   top: -5px;
   right: 40px;
   z-index: 10;
@@ -44,7 +44,8 @@
   display: flex;
   justify-content: space-between;
   list-style: none;
-  padding-right: 3%; /*added padding because it was shifted, is there a better way? */
+  margin: 0;
+  padding: 5px;
 }
 
 .card__list-items {
@@ -60,4 +61,21 @@
 
 .hidden {
   display: none;
+}
+
+.card__answer-button {
+  margin: 8px;
+  background-color: var(--color-marked);
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12pt;
+}
+
+h2 {
+  padding: 5px;
+}
+
+p {
+  padding: 5px;
 }
