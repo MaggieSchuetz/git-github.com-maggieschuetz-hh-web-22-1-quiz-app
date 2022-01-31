@@ -1,9 +1,13 @@
 :root {
-  --color-background: ghostwhite;
-  --color-marked: lightseagreen;
-  --color-papaya: papayawhip;
+  --color-background: #d9d9d9;
+  --color-marked: #3c6e71;
+  --color-papaya: #ffffff;
   --color-black: black;
   --color-shadow: rgba(0, 0, 0, 0.3);
   --color-header: rgba(255, 255, 255, 0.5);
-  --color-light: #fffaf0;
+  --color-light: #ffffff;
+  --color-button: #89b0ae;
+  --color-bookmark: #d8b4a0;
+  --color-active: #d77a61;
+  --color-tags: #bee3db;
 }
