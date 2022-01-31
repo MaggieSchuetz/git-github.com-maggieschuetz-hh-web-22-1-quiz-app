@@ -11,21 +11,33 @@
 
 .bookmark {
   position: absolute;
+
   top: -5px;
   right: 40px;
   z-index: 10;
   height: 20px;
   width: 30px;
   border: 1px solid black;
+
 }
 
 /*.bookmark:focus {
   background-color: var(--color-marked);
   border-radius: 6px;} /*The button switches shape after clicking it and I don't want that, but I guess we'll still do this one anyway*/
 
+
 .bookmark__marked {
   background-color: red;
 }
+
+/*.bookmark__marked {
+  position: absolute;
+  top: -10px;
+  right: 40px;
+  background-color: var(--color-marked);
+  border-radius: 6px;
+}*/
+
 
 .bg-teal {
   background-color: var(--color-marked);

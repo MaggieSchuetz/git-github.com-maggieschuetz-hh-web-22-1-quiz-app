@@ -1,3 +1,4 @@
+
 /*const bookmark = document.querySelector('[data-js="js-bookmark"]');
 const bookmark = document.querySelector('[data-js="js-bookmark"]');
 
@@ -43,4 +44,9 @@ textareaAnswer.addEventListener('input', () => {
   } else {
     outputAnswer.classList.remove('color-negative');
   }
+/*const bookmark = document.querySelector('[data-js="js-bookmark"]');
+
+bookmark.addEventListener("click", () => {
+  bookmark.classList.toggle("bg-teal");*/
+>
 });

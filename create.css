@@ -41,6 +41,7 @@ input {
   height: 100vh;
 }
 
+
 .color-negative {
   color: red;
 
@@ -48,3 +49,4 @@ input {
   display: grid;
   grid-template-columns: 2; */
 }
+
