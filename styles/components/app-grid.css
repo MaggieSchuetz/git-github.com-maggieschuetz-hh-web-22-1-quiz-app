@@ -1,6 +1,6 @@
 .app-grid {
   display: grid;
-  grid-template-rows: 48px 1fr;
+  grid-template-rows: 48px 1vh;
   padding-top: 5px;
 }
 

@@ -3,21 +3,19 @@
   margin: 1rem;
   background: var(--color-light);
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3); /* I don't know how to define this separately*/
-  border-radius: 25px;
+  border-radius: 15px;
   min-width: 200px;
   height: fit-content;
   position: relative;
+  text-align: center;
 }
 
 .bookmark {
   position: absolute;
-
-  top: -5px;
-  right: 40px;
+  top: -3px;
+  right: 20px;
   z-index: 10;
-  height: 20px;
-  width: 30px;
-  border: 1px solid black;
+  border: none;
 }
 
 /*.bookmark:focus {
@@ -25,7 +23,9 @@
   border-radius: 6px;} /*The button switches shape after clicking it and I don't want that, but I guess we'll still do this one anyway*/
 
 .bookmark__marked {
-  background-color: red;
+  fill: var(--color-active) !important;
+  height: 30px;
+  width: 30px;
 }
 
 /*.bookmark__marked {
@@ -44,11 +44,12 @@
   display: flex;
   justify-content: space-between;
   list-style: none;
-  padding-right: 3%; /*added padding because it was shifted, is there a better way? */
+  margin: 0;
+  padding: 5px;
 }
 
 .card__list-items {
-  background-color: var(--color-marked);
+  background-color: var(--color-tags);
   padding: 2px 8px;
   margin: 5px;
   border-radius: 4px;
@@ -60,4 +61,21 @@
 
 .hidden {
   display: none;
+}
+
+.card__answer-button {
+  margin: 8px;
+  background-color: var(--color-button);
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12pt;
+}
+
+h2 {
+  padding: 5px;
+}
+
+p {
+  padding: 5px;
 }

@@ -3,7 +3,7 @@ export default function Card(cardElement) {
   const bookmarkButton = cardElement.querySelector('[data-js="js-bookmark"]');
 
   bookmarkButton.addEventListener('click', () => {
-    bookmarkButton.classList.toggle('bookmark__marked');
+    bookmarkIcon.classList.toggle('bookmark__marked');
   });
 
   const answerButton = cardElement.querySelector('[data-js="answer-button"]');
