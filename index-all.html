@@ -169,7 +169,7 @@
       </main>
     </section>
 
-    <section data-page="page__bookmarks">
+    <section data-page="page__bookmarks" class="page__bookmarks hidden">
       <header class="app-grid__header">Bookmarks</header>
       <main class="app-grid__scrollarea">
         <section class="card" data-js="card">
@@ -327,7 +327,7 @@
       </main>
     </section>
 
-    <section data-page="page__create" class="page__create">
+    <section data-page="page__create" class="page__create hidden">
       <header class="app-grid__header">Create</header>
       <main class="no-scroll">
         <form
@@ -370,7 +370,7 @@
       </main>
     </section>
 
-    <section data-page="page__profile" class="page__profile">
+    <section data-page="page__profile" class="page__profile hidden">
       <header class="app-grid__header" data-js="header__profile">
         Profile
       </header>
@@ -422,14 +422,8 @@
     </section>
 
     <nav class="nav__grid" data-nav="navbar">
-      <li class="nav__icons" data-nav="nav-home">
-        <img
-          src="./images/home.svg"
-          alt="home"
-          width="20"
-          height="20"
-          class="nav--active"
-        />
+      <li class="nav__icons active" data-nav="nav-home">
+        <img src="./images/home.svg" alt="home" width="20" height="20" />
       </li>
       <li class="nav__icons" data-nav="nav-bookmark">
         <img
@@ -437,26 +431,13 @@
           alt="bookmarks"
           width="20"
           height="20"
-          class="nav__img"
         />
       </li>
       <li class="nav__icons" data-nav="nav-create">
-        <img
-          src="./images/create.svg"
-          alt="create"
-          width="20"
-          height="20"
-          class="nav__img"
-        />
+        <img src="./images/create.svg" alt="create" width="20" height="20" />
       </li>
       <li class="nav__icons" data-nav="nav-profile">
-        <img
-          src="./images/profile.svg"
-          alt="profile"
-          width="20"
-          height="20"
-          class="nav__img"
-        />
+        <img src="./images/profile.svg" alt="profile" width="20" height="20" />
       </li>
     </nav>
   </body>

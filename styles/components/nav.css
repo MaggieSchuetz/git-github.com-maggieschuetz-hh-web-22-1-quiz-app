@@ -30,3 +30,12 @@
 .active {
   filter: invert(1);
 }
+
+.nav__grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+  list-style: none;
+  border-right: 2px;
+}
