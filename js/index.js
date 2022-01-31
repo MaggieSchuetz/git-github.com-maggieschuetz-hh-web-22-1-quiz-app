@@ -14,24 +14,24 @@ import Compile from './Compile.js';
 // NodeList [HTMLElement, HTMLElement]
 const allCardElements = document.querySelectorAll('[data-js="card"]');
 
-allCardElements.forEach((cardElement) => {
+allCardElements.forEach(cardElement => {
   Card(cardElement);
 });
 
 const formElements = document.querySelectorAll('[data-js="form"]');
 
-formElements.forEach((formElement) => {
+formElements.forEach(formElement => {
   Forms(formElement);
 });
 
 const userLogout = document.querySelectorAll('[data-js="profile"]');
 
-userLogout.forEach((profileLogout) => {
+userLogout.forEach(profileLogout => {
   Logout(profileLogout);
 });
 
 const switchTabs = document.querySelectorAll('[data-js="selectAll"]');
 
-switchTabs.forEach((switchClick) => {
+switchTabs.forEach(switchClick => {
   Compile(switchClick);
 });
