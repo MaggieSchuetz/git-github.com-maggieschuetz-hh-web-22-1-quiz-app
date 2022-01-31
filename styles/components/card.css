@@ -12,13 +12,10 @@
 
 .bookmark {
   position: absolute;
-  top: -5px;
-  right: 40px;
+  top: -3px;
+  right: 20px;
   z-index: 10;
-  height: 20px;
-  width: 30px;
-  background-color: var(--color-bookmark);
-  border: 1px solid black;
+  border: none;
 }
 
 /*.bookmark:focus {
@@ -26,7 +23,9 @@
   border-radius: 6px;} /*The button switches shape after clicking it and I don't want that, but I guess we'll still do this one anyway*/
 
 .bookmark__marked {
-  background-color: var(--color-active);
+  fill: var(--color-active) !important;
+  height: 30px;
+  width: 30px;
 }
 
 /*.bookmark__marked {
