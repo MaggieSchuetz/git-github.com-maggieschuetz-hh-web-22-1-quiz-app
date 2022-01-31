@@ -43,4 +43,8 @@ input {
 
 .color-negative {
   color: red;
+
+  /*.create-grid {
+  display: grid;
+  grid-template-columns: 2; */
 }
