@@ -9,6 +9,9 @@
   font-size: 200%;
   background-color: var(--color-marked);
   padding-top: 10px;
+
+  text-align: center;
+
 }
 
 .app-grid__scrollarea {

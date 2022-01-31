@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav_main {
+  background-color: var(--color-marked);
+  padding: 0.5rem;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0;
+  list-style: none;
+  border-right: 2px;
+}
+
+.nav-icon {
+  padding: 10px;
+}

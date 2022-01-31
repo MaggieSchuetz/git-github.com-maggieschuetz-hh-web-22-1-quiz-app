@@ -1,17 +1,9 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center; /*maybe leave this out to fix the list*/
+.m-20 {
+  margin: 20px !important;
 }
-
-h1 {
+.p-20 {
+  padding: 20px;
 }
-
-h2 {
-}
-.mb-20 {
-  margin-bottom: 20px !important;
-}
-
 .h-500 {
   height: 500px;
 }
@@ -20,18 +12,8 @@ h2 {
   height: 100vh;
 }
 
-.h-75 {
-  height: 75px;
-}
-
-.bg-blue {
-  background-color: skyblue;
-}
-
-.bg-coral {
-  background-color: coral;
-}
-
-.bg-hotpink {
-  background-color: hotpink;
+.flex-r {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }

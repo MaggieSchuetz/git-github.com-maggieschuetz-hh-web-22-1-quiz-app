@@ -40,3 +40,9 @@ input {
 .no-scroll {
   height: 100vh;
 }
+
+
+.color-negative {
+  color: red;
+}
+

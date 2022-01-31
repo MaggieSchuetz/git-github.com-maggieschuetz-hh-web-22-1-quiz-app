@@ -54,3 +54,9 @@ h3 {
 .no-scroll {
   height: 100vh;
 }
+
+
+.hidden {
+  display: none;
+}
+
